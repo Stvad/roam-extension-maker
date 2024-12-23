@@ -46,7 +46,7 @@ This Python script automates creating and updating a Roam Research extension in 
 4. **Update** an existing PR after making changes:
 
     ```bash
-    python setup_roam_extension.py update --extension-repo-name “my-roam-extension”
+    python setup_roam_extension.py update --extension-repo-name "my-roam-extension"
     ```
 
 - This will commit and push new code to `master`.
@@ -70,17 +70,17 @@ This Python script automates creating and updating a Roam Research extension in 
 
  ```bash
  python setup_roam_extension.py submit 
- --extension-repo-name “roam-new-daypage-block” 
- --extension-name “Create a new Block on a Daily page Roam Shortcut” 
- --extension-short-description “Introduces a shortcut to create a new block on the current day’s page and open it in a sidebar.” 
- --extension-author “John Doe”
+ --extension-repo-name "roam-new-daypage-block" 
+ --extension-name "Create a new Block on a Daily page Roam Shortcut" 
+ --extension-short-description "Introduces a shortcut to create a new block on the current day’s page and open it in a sidebar." 
+ --extension-author "John Doe"
  ```
 
 ### Update an Existing Extension
 
  ```bash
  python setup_roam_extension.py update
- --extension-repo-name “roam-new-daypage-block”    
+ --extension-repo-name "roam-new-daypage-block"    
  ```
 
 After your Pull Request is merged by the Roam team, your extension should appear in the Roam Marketplace!
